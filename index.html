@@ -1,57 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fedicarlos - Hub de Links</title>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 
         body {
             background: url('pexels-markusspiske-1089438.jpeg') no-repeat center center fixed;
             background-size: cover;
             color: #00ff00;
-            font-family: 'Share Tech Mono', monospace;
+            font-family: 'VT323', monospace;
             text-align: center;
-            padding-top: 50px;
+            padding: 20px;
         }
 
         .container {
-            background: rgba(0, 0, 0, 0.8);
+            max-width: 400px;
+            margin: 50px auto;
             padding: 20px;
-            width: 80%;
-            max-width: 600px;
-            margin: auto;
+            background: rgba(0, 0, 0, 0.85);
             border-radius: 10px;
-            box-shadow: 0px 0px 20px #00ff00;
+            box-shadow: 0 0 15px #00ff00;
         }
 
         h1 {
-            font-size: 24px;
-            text-shadow: 0px 0px 10px #00ff00;
+            font-size: 28px;
+            text-shadow: 0 0 10px #00ff00;
         }
 
         p {
-            font-size: 14px;
+            font-size: 16px;
         }
 
         .link {
             display: block;
-            background: #003300;
+            background: black;
             color: #00ff00;
+            text-decoration: none;
             padding: 15px;
             margin: 10px 0;
-            text-decoration: none;
+            border-radius: 5px;
             font-size: 18px;
             border: 1px solid #00ff00;
-            border-radius: 5px;
-            text-shadow: 0px 0px 5px #00ff00;
+            text-shadow: 0 0 5px #00ff00;
             transition: 0.3s;
         }
 
         .link:hover {
-            background: #004d00;
-            box-shadow: 0px 0px 15px #00ff00;
+            background: #00ff00;
+            color: black;
         }
     </style>
 </head>
@@ -59,10 +58,11 @@
     <div class="container">
         <h1>Fedicarlos - Hub de Links</h1>
         <p>Bem-vindo ao meu hub de links!</p>
-        <a class="link" href="#">$ YouTube</a>
-        <a class="link" href="#">$ TikTok</a>
-        <a class="link" href="#">$ Meu GitHub</a>
-        <a class="link" href="#">$ Livros & Tutoriais</a>
+
+        <a class="link" href="https://youtube.com/@felipedicarlo" target="_blank">$ YouTube (@felipedicarlo)</a>
+        <div class="link">$ O Maior Blog Hacker do Brasil! (Em construção)</div>
+        <a class="link" href="https://github.com/fedicarlos" target="_blank">$ Meu GitHub</a>
+        <a class="link" href="https://seulink.com" target="_blank">$ Livros & Tutoriais</a>
     </div>
 </body>
 </html>
