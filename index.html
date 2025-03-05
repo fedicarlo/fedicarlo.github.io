@@ -1,99 +1,68 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fedicarlo - Hub de Links</title>
+    <title>Fedicarlos - Hub de Links</title>
     <style>
-        /* Importando fonte hacker */
-        @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
 
         body {
-            font-family: 'VT323', monospace;
-            background: black;
-            color: #00ff00;
-            text-align: center;
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-        }
-
-        /* Criando um fundo animado com um tubarão */
-        .background {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: url('https://media.giphy.com/media/3o7aD2saalBwwftBIY/giphy.gif') no-repeat center center fixed;
+            background: url('pexels-markusspiske-1089438.jpeg') no-repeat center center fixed;
             background-size: cover;
-            opacity: 0.2;
-            z-index: -1;
+            color: #00ff00;
+            font-family: 'Share Tech Mono', monospace;
+            text-align: center;
+            padding-top: 50px;
         }
 
         .container {
-            margin-top: 10%;
-            background: rgba(0, 0, 0, 0.9);
+            background: rgba(0, 0, 0, 0.8);
             padding: 20px;
+            width: 80%;
+            max-width: 600px;
+            margin: auto;
             border-radius: 10px;
-            box-shadow: 0 0 20px #00ff00;
-            display: inline-block;
+            box-shadow: 0px 0px 20px #00ff00;
         }
 
         h1 {
-            font-size: 28px;
-            color: #00ff00;
-            text-shadow: 0 0 10px #00ff00;
+            font-size: 24px;
+            text-shadow: 0px 0px 10px #00ff00;
         }
 
         p {
-            font-size: 18px;
+            font-size: 14px;
         }
 
-        /* Estilo dos botões */
-        .button {
+        .link {
             display: block;
-            background: rgba(0, 255, 0, 0.2);
+            background: #003300;
             color: #00ff00;
-            padding: 10px 20px;
+            padding: 15px;
             margin: 10px 0;
             text-decoration: none;
-            font-size: 20px;
-            border-radius: 5px;
-            transition: all 0.3s ease-in-out;
-            width: 250px;
-            text-align: center;
+            font-size: 18px;
             border: 1px solid #00ff00;
-            box-shadow: 0 0 10px #00ff00;
+            border-radius: 5px;
+            text-shadow: 0px 0px 5px #00ff00;
+            transition: 0.3s;
         }
 
-        .button:hover {
-            background: rgba(0, 255, 0, 0.5);
-            transform: scale(1.05);
-            box-shadow: 0 0 20px #00ff00;
-        }
-
-        /* Ícones estilo terminal */
-        .button::before {
-            content: "$ ";
-            margin-right: 10px;
+        .link:hover {
+            background: #004d00;
+            box-shadow: 0px 0px 15px #00ff00;
         }
     </style>
 </head>
 <body>
-
-    <div class="background"></div> <!-- Fundo animado com tubarão -->
-
     <div class="container">
-        <h1>Fedicarlo - Hub de Links</h1>
+        <h1>Fedicarlos - Hub de Links</h1>
         <p>Bem-vindo ao meu hub de links!</p>
-
-        <a class="button" href="https://www.youtube.com/@felipedicarlo" target="_blank">YouTube</a>
-        <a class="button" href="https://www.tiktok.com/@felipedicarlo" target="_blank">TikTok</a>
-        <a class="button" href="https://github.com/fedicarlo" target="_blank">Meu GitHub</a>
-        <a class="button" href="https://seusite.com/livros" target="_blank">Livros & Tutoriais</a>
-
+        <a class="link" href="#">$ YouTube</a>
+        <a class="link" href="#">$ TikTok</a>
+        <a class="link" href="#">$ Meu GitHub</a>
+        <a class="link" href="#">$ Livros & Tutoriais</a>
     </div>
-
 </body>
 </html>
