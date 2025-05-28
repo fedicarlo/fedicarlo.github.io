@@ -1,3 +1,7 @@
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+![Status](https://img.shields.io/badge/status-in%20development-orange)
+![Made with Python](https://img.shields.io/badge/made%20with-Python-blue.svg)
+
 # AEGIS - Sistema Autônomo de Bug Hunting
 
 ## 🔥 Introdução
